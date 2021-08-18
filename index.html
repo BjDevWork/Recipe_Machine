@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Weekly Meal Plan</title>
+    <meta charset="UTF-8">
+    <style>			.container {
+			  display: grid; 
+			  grid-template-columns: 0.9fr; 
+			  grid-template-rows: 0.2fr 1.9fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    'title'
+			    'content'; 
+			}
+			.title {
+			  justify-self: center; 
+			  grid-area: title; 
+			}
+			.content {
+			  display: grid; 
+			  grid-template-columns: 1fr 1fr; 
+			  grid-template-rows: 1fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    'recipe-info directions'; 
+			  grid-area: content; 
+			}
+			.recipe-info {
+			  display: grid; 
+			  grid-template-columns: 1fr; 
+			  grid-template-rows: 1.5fr 0.5fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    'ingredients'
+			    'info'; 
+			  grid-area: recipe-info; 
+			}
+			.ingredients { grid-area: ingredients; }
+			.info { grid-area: info; }
+			.directions { grid-area: directions; }
+
+			</style>
+  </head>
+  <body>
+    <h1>Your Weekly Meal Plan</h1>
+    <div class="container">
+      <div class="title">
+        <h2>Grandma Nancy's Apricot Almond Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>2 ¾ cups rolled oats</li>
+              <li>½ cup slivered almonds</li>
+              <li>½ cup dried cranberries</li>
+              <li>½ cup chopped dried apricots</li>
+              <li>⅓ cup chopped walnuts</li>
+              <li>⅓ cup golden raisins</li>
+              <li>½ cup honey</li>
+              <li>⅓ cup butter, melted</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 499</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 315 degrees F (157 degrees C). Line a baking sheet with parchment paper or aluminum foil. </li>
+            <li>2.  Stir oats, almonds, cranberries, apricots, walnuts, and raisins together in a bowl. </li>
+            <li>3.  Whisk honey and butter together in a bowl. Drizzle honey mixture over oat mixture; toss to coat. Spread oat mixture in a single layer on the prepared baking sheet. </li>
+            <li>4.  Bake granola in the preheated oven until lightly browned, 20 to 25 minutes; cool in pan and break into pieces.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Honey Peanut Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>3 cups quick cooking oats</li>
+              <li>½ cup chopped peanuts</li>
+              <li>¼ cup wheat germ</li>
+              <li>⅓ cup honey</li>
+              <li>⅓ cup brown sugar</li>
+              <li>¼ cup vegetable oil</li>
+              <li>2 tablespoons warm water</li>
+              <li>½ teaspoon salt</li>
+              <li>1 teaspoon vanilla extract</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 428</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 1 hr</li>
+              <li>ready time: 1 hr 15 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 250 degrees F (120 degrees C). Lightly grease a baking sheet. </li>
+            <li>2.  In a large bowl, combine oats, peanuts, and wheat germ. </li>
+            <li>3.  In a separate bowl, combine honey, brown sugar, vegetable oil, water, salt, and vanilla. Stir well; then pour into the oat mixture, and stir. Spread out on a cookie sheet. </li>
+            <li>4.  Bake for 1 hour, stirring every 15 minutes. Remove from oven, and cool before serving.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Crunchy Pumpkin Pie Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>⅓ cup brown sugar</li>
+              <li>1 tablespoon pumpkin pie spice</li>
+              <li>3 ½ cups rolled oats</li>
+              <li>½ cup sliced almonds</li>
+              <li>½ cup chopped pecans</li>
+              <li>⅔ cup applesauce</li>
+              <li>½ cup honey</li>
+              <li>1 tablespoon vanilla extract</li>
+              <li>½ cup raisins</li>
+              <li>½ cup dried cranberries</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 312</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 1 hr</li>
+              <li>ready time: 1 hr 45 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat an oven to 250 degrees F (120 degrees C). Coat 2 baking sheets with nonstick cooking spray. </li>
+            <li>2.  Combine brown sugar, pumpkin pie spice, rolled oats, almonds, and pecans in a large bowl. Mix the applesauce, honey, and vanilla in a separate large bowl. Stir the oat mixture into the applesauce mixture, until granola begins to gather in clusters. Spoon granola evenly onto prepared baking sheets. </li>
+            <li>3.  Bake in preheated oven, stirring every 20 minutes, until lightly browned and crispy, about 1 hour. </li>
+            <li>4.  Remove from oven; cool to room temperature. Stir in raisins and cranberries; store in an airtight container.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Sugar Free Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 cup chopped dates</li>
+              <li>1 cup water</li>
+              <li>8 cups rolled oats</li>
+              <li>½ cup chopped walnuts</li>
+              <li>1 cup raisins</li>
+              <li>1 cup wheat germ</li>
+              <li>½ cup sunflower seeds</li>
+              <li>½ cup slivered almonds</li>
+              <li>2 cups shredded coconut</li>
+              <li>¼ cup vegetable oil</li>
+              <li>¼ cup frozen apple juice concentrate, thawed</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 405</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 35 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat the oven to 350 degrees F (175 degrees C). In a small saucepan over medium heat, combine the dates and water. Cook stirring occasionally until the mixture forms a thick paste. Remove from heat and set aside. </li>
+            <li>2.  In a large bowl, mix together the oats, walnuts, raisins, wheat germ, sunflower seeds, and coconut. Spread out in a thin layer onto a baking sheet. If your baking sheet is small, this can be done in batches. </li>
+            <li>3.  Bake for 7 minutes in the preheated oven, or until lightly toasted. Transfer the mixture back into the bowl, and mix in the date paste, apple juice concentrate, and oil. Return to the baking sheet and bake for an additional 7 to 10 minutes, stirring occasionally until lightly browned. Granola will become more crispy as it cools. Store in an airtight container.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Grandma Dalley's Honey Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>4 cups old-fashioned rolled oats</li>
+              <li>2 cups coarsely chopped almonds</li>
+              <li>¾ cup honey</li>
+              <li>½ cup butter</li>
+              <li>2 teaspoons ground cinnamon</li>
+              <li>1 pinch salt</li>
+              <li>1 cup golden raisins</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 364</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 35 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 350 degrees F (175 degrees C). Lightly grease a baking sheet. </li>
+            <li>2.  Mix oats and almonds in a large bowl. </li>
+            <li>3.  Combine honey, butter, cinnamon, and salt in a saucepan; bring to a boil for 1 minute. Pour honey mixture over oat mixture; toss to coat. Spread onto the prepared baking sheet. </li>
+            <li>4.  Bake in the preheated oven, stirring every 5 minutes, until granola is lightly browned, 15 to 20 minutes. Fold in raisins and bake for 2 more minutes. Cool and crumble.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Dee's Dark Chocolate Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>cooking spray</li>
+              <li>½ cup brown sugar</li>
+              <li>2 tablespoons peanut butter</li>
+              <li>2 tablespoons honey</li>
+              <li>2 tablespoons butter flavored spread (such as I Can't Believe It's Not Butter!® Spread)</li>
+              <li>1 teaspoon vanilla extract</li>
+              <li>2 cups oats (such as Quaker Oats®)</li>
+              <li>1 teaspoon ground cinnamon</li>
+              <li>¼ teaspoon salt</li>
+              <li>¼ cup dark chocolate chips</li>
+              <li>¼ cup sweetened dried cranberries (such as Craisins®) (Optional)</li>
+              <li>¼ cup sliced almonds (Optional)</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 249</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 15 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 350 degrees F (175 degrees C). Line a 9x13-inch baking dish with aluminum foil and spray with nonstick cooking spray. </li>
+            <li>2.  Melt together the brown sugar, peanut butter, honey, butter flavored spread, and vanilla extract in a small saucepan over low heat. Stir until well combined; remove from heat. </li>
+            <li>3.  Combine the oats, cinnamon, and salt in a large bowl. Pour the brown sugar mixture into bowl; stir well to combine. Stir in the chocolate chips, dried cranberries, and almonds. Spoon into the prepared pan; pat down and spread evenly. </li>
+            <li>4.  Bake in preheated oven until browned, 15 to 20 minutes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Crunchy Peanut Butter, Chocolate, Coconut Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>cooking spray</li>
+              <li>2 tablespoons honey</li>
+              <li>2 tablespoons peanut butter</li>
+              <li>2 cups rolled oats</li>
+              <li>⅔ cup sunflower seeds</li>
+              <li>⅔ cup chocolate chips</li>
+              <li>⅓ cup shredded coconut</li>
+              <li>⅓ cup brown sugar</li>
+              <li>2 teaspoons vanilla extract</li>
+              <li>1 teaspoon ground cinnamon</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 245</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 50 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 325 degrees F (165 degrees C). Line a 9x13-inch baking sheet with aluminum foil; coat with cooking spray. </li>
+            <li>2.  Combine honey and peanut butter in a microwave-safe bowl; microwave on high until melted, about 20 seconds. Stir well. </li>
+            <li>3.  Place the rolled oats in a large bowl. Drizzle honey-peanut butter mixture over oats; toss to coat. Mix in sunflower seeds, chocolate chips, coconut, brown sugar, vanilla extract, and cinnamon until evenly combined. Spread mixture onto the prepared baking sheet. </li>
+            <li>4.  Bake in the preheated oven until lightly browned, about 22 minutes. Let cool for 20 minutes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Coconut Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>8 cups quick-cooking oats</li>
+              <li>1 cup oat bran</li>
+              <li>1 cup unsweetened flaked coconut</li>
+              <li>¾ cup chopped almonds</li>
+              <li>½ cup coconut milk</li>
+              <li>¼ cup virgin coconut oil</li>
+              <li>¼ cup vegetable oil</li>
+              <li>½ cup barley malt syrup or maltose syrup</li>
+              <li>½ cup honey</li>
+              <li>1 teaspoon vanilla extract</li>
+              <li>½ cup dried cranberries</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 267</li>
+              <li>prep time: 20 mins</li>
+              <li>cook time: 16 mins</li>
+              <li>ready time: 36 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat the oven to 350 degrees F (175 degrees C). In a large bowl, stir together the oats, oat bran, coconut and almonds. Divide between two large baking sheets, and spread into an even layer. </li>
+            <li>2.  Bake for 7 or 8 minutes in the preheated oven, until lightly toasted. Allow to cool for a few minutes, then return to the large bowl. </li>
+            <li>3.  While the oats are toasting, combine the coconut milk, coconut oil, vegetable oil, malt syrup and honey in a saucepan. Cook over medium heat, stirring until it comes to a boil. Boil for 2 minutes. Remove from heat, and stir in the vanilla. Pour the syrup over the granola in the bowl, and stir until the dry ingredients are fully coated. Divide between the two baking sheets, and spread evenly. </li>
+            <li>4.  Bake for 8 minutes in the preheated oven, or until fragrant and toasted. Cool in the pans, then mix in the dried cranberries. Store in an airtight container at room temperature.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Easy-Peezy Caramel Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>2 cups quick cooking oats</li>
+              <li>1 cup brown sugar</li>
+              <li>2 tablespoons ground cinnamon</li>
+              <li>½ cup butter, melted</li>
+              <li>5 tablespoons caramel sauce</li>
+              <li>2 tablespoons white sugar</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 332</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 5 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Stir together the oats, brown sugar, and cinnamon in a wok or large skillet over high heat, cook 5 to 10 minutes; remove from heat and add the butter and caramel sauce; stir until evenly coated. Spread the mixture onto a flat platter or baking sheet in a thin layer. Sprinkle the white sugar over the granola. Allow to cool completely before serving.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Mom's Best Granola</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>7 cups rolled oats</li>
+              <li>1 cup wheat germ</li>
+              <li>1 cup unsweetened flaked coconut</li>
+              <li>½ cup unsalted sunflower seeds</li>
+              <li>½ cup sesame seeds</li>
+              <li>1 cup chopped almonds</li>
+              <li>½ cup vegetable oil</li>
+              <li>½ cup honey</li>
+              <li>½ cup boiling water</li>
+              <li>¼ cup brown sugar</li>
+              <li>½ teaspoon salt</li>
+              <li>1 teaspoon vanilla extract</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 431</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 1 hr</li>
+              <li>ready time: 1 hr 15 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat the oven to 325 degrees F (165 degrees C). </li>
+            <li>2.  In a large bowl, stir together the oats, wheat germ, coconut, sunflower seeds and almonds. In a separate bowl, mix together the oil, honey, boiling water, brown sugar, salt and vanilla. Pour the liquid ingredients into the dry ingredients, and stir until evenly coated. Spread in a thin layer on a large baking sheet. </li>
+            <li>3.  Bake for 60 to 90 minutes in the preheated oven. Stir every 30 minutes, until lightly toasted and fragrant. Granola will crisp up more when cooled.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

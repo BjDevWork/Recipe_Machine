@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Weekly Meal Plan</title>
+    <meta charset="UTF-8">
+    <style>			.container {
+			  display: grid; 
+			  grid-template-columns: 0.9fr; 
+			  grid-template-rows: 0.2fr 1.9fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    "title"
+			    "content"; 
+			}
+			.title {
+			  justify-self: center; 
+			  grid-area: title; 
+			}
+			.content {
+			  display: grid; 
+			  grid-template-columns: 1fr 1fr; 
+			  grid-template-rows: 1fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    "recipe-info directions"; 
+			  grid-area: content; 
+			}
+			.recipe-info {
+			  display: grid; 
+			  grid-template-columns: 1fr; 
+			  grid-template-rows: 1.5fr 0.5fr; 
+			  gap: 0px 0px; 
+			  grid-template-areas: 
+			    "ingredients"
+			    "info"; 
+			  grid-area: recipe-info; 
+			}
+			.ingredients { grid-area: ingredients; }
+			.info { grid-area: info; }
+			.directions { grid-area: directions; }
+
+			</style>
+  </head>
+  <body>
+    <h1>Your Weekly Meal Plan</h1>
+    <div class="container">
+      <div class="title">
+        <h2>Quick-and-Easy Steak Marinade</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>2 (8 ounce) boneless rib-eye steaks, salt and ground black pepper to taste</li>
+              <li>1 pinch garlic powder, or to taste</li>
+              <li>1 pinch Montreal steak seasoning, or to taste</li>
+              <li>⅓ cup extra virgin olive oil</li>
+              <li>⅓ cup Worcestershire sauce</li>
+              <li>⅓ cup soy sauce</li>
+              <li>⅓ cup balsamic vinegar</li>
+              <li>3 tablespoons Dijon mustard</li>
+              <li>3 cloves garlic, chopped</li>
+              <li>1 dash liquid smoke flavoring</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 719</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 4 hrs 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Place steaks in a flat baking dish or container. Cut slits at 1-inch intervals in the fat around the edges of the steaks. Gently pierce both sides of each steak a few times with a fork. </li>
+            <li>2.  Sprinkle each steak with salt, pepper, garlic powder, and Montreal steak seasoning. Pat seasonings into steaks. </li>
+            <li>3.  Whisk olive oil, Worcestershire sauce, soy sauce, balsamic vinegar, Dijon mustard, garlic, and liquid smoke together in a bowl. Pour marinade over steaks to coat. Cover container or baking dish with plastic wrap and marinate steaks in the refrigerator for 2 hours. Turn steaks over and marinate for another 2 hours. </li>
+            <li>4.  Preheat an outdoor grill for medium-high heat and lightly oil the grate. </li>
+            <li>5.  Cook the steaks on the preheated grill until they start to firm, and are reddish-pink and juicy in the center, 8 to 10 minutes per side for medium-rare. An instant-read thermometer inserted into the center should read 130 degrees F (54 degrees C).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Hamburger Stroganoff</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 (16 ounce) package egg noodles</li>
+              <li>2 tablespoons butter</li>
+              <li>1 pound ground beef</li>
+              <li>1 onion, chopped</li>
+              <li>1 tablespoon all-purpose flour</li>
+              <li>1 (4.5 ounce) can sliced mushrooms, drained (Optional)</li>
+              <li>1 tablespoon garlic salt</li>
+              <li>1 (10.75 ounce) can cream of mushroom soup (such as Campbell's®)</li>
+              <li>1 (10.75 ounce) can cream of chicken soup (such as Campbell's®)</li>
+              <li>1 cup sour cream</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 655</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Bring a large pot of lightly salted water to a boil. Cook egg noodles in the boiling water, stirring occasionally until cooked through but firm to the bite, about 5 minutes; drain. </li>
+            <li>2.  Melt butter in a large skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Add ground beef to skillet in small chunks; cook and stir to break the beef into smaller pieces as it cooks until no longer pink, 5 to 7 minutes. </li>
+            <li>3.  Sprinkle flour over the beef mixture, stir, and cook for 1 minute. Stir mushrooms and garlic salt into the beef mixture. Pour mushroom soup and chicken soup over beef, stir, and cook until hot, about 5 minutes; add sour cream, stir until smooth, and cook until again hot, 2 to 3 minutes more. Pour beef mixture over the cooked egg noodles.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Baked Asparagus</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 bunch asparagus</li>
+              <li>⅛ cup olive oil</li>
+              <li>3 cloves garlic, minced, or to taste</li>
+              <li>2 teaspoons Italian seasoning, or to taste</li>
+              <li>1 teaspoon ground black pepper, or to taste</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 89</li>
+              <li>prep time: 5 mins</li>
+              <li>cook time: 15 mins</li>
+              <li>ready time: 20 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat the oven to 300 degrees F (150 degrees C). </li>
+            <li>2.  Spread asparagus out on a baking sheet and coat with olive oil. Add garlic, Italian seasoning, and black pepper evenly. </li>
+            <li>3.  Bake in the preheated oven until desired crispness, about 15 minutes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Mock Hollandaise Sauce</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>½ cup mayonnaise</li>
+              <li>½ cup sour cream</li>
+              <li>1 teaspoon lemon juice</li>
+              <li>1 teaspoon prepared yellow mustard, or to taste</li>
+              <li>¼ teaspoon ground paprika</li>
+              <li>1 dash hot pepper sauce</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 261</li>
+              <li>prep time: 5 mins</li>
+              <li>cook time: 2 mins</li>
+              <li>ready time: 7 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Whisk mayonnaise, sour cream, lemon juice, mustard, paprika, and hot pepper sauce together in a small saucepan over medium heat until warmed through, 2 to 3 minutes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Chicken Divan</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 (16 ounce) package frozen chopped broccoli</li>
+              <li>2 teaspoons vegetable oil</li>
+              <li>3 skinless, boneless chicken breast halves, cut into bite-size pieces</li>
+              <li>2 (10.75 ounce) cans condensed cream of chicken soup</li>
+              <li>1 cup mayonnaise</li>
+              <li>2 tablespoons cooking sherry</li>
+              <li>1 teaspoon lemon juice</li>
+              <li>1 cup bread crumbs</li>
+              <li>1 cup grated Cheddar cheese</li>
+              <li>3 tablespoons melted butter</li>
+              <li>4 cups hot cooked white rice, or as needed</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 799</li>
+              <li>prep time: 15 mins</li>
+              <li>cook time: 50 mins</li>
+              <li>ready time: 1 hr 5 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Put frozen broccoli in a microwave-safe bowl; cook in microwave until hot, about 4 minutes. Transfer broccoli to a 9x13-inch baking dish. </li>
+            <li>2.  Heat vegetable oil in a skillet over medium heat. Cook and stir chicken in hot oil until no longer pink in the middle, 5 to 7 minutes. Top broccoli with chicken pieces evenly. </li>
+            <li>3.  Stir chicken soup, mayonnaise, sherry, and lemon juice together in a bowl until smooth; pour over the chicken and broccoli. </li>
+            <li>4.  Bake in preheated oven for 30 minutes. </li>
+            <li>5.  Mix bread crumbs, Cheddar cheese, and melted butter together in a small bowl; sprinkle evenly over the dish. </li>
+            <li>6.  Continue baking until the topping is browned, about 10 minutes. Serve over rice.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Tuna Casserole</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 (12 ounce) package egg noodles</li>
+              <li>2 cups frozen green peas</li>
+              <li>2 (10.75 ounce) cans condensed cream of mushroom soup</li>
+              <li>2 (5 ounce) cans tuna, drained</li>
+              <li>1 onion, chopped</li>
+              <li>10 slices American processed cheese, ground black pepper to taste</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 662</li>
+              <li>prep time: 5 mins</li>
+              <li>cook time: 25 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Bring a large pot of water to a boil. Add noodles and frozen peas. Cook until noodles are al dente, drain well. Return noodles and peas to the pot. </li>
+            <li>2.  Mix soup, tuna fish, onions, processed cheese and pepper into the pot. Stir constantly until all of the ingredients are well mixed and the cheese has melted. Serve.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Yorkshire Pudding</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>3 eggs</li>
+              <li>1 cup milk</li>
+              <li>1 cup all-purpose flour</li>
+              <li>2 tablespoons butter</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 83</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 30 mins</li>
+              <li>ready time: 40 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Preheat oven to 375 degrees F (190 degrees C). </li>
+            <li>2.  In a medium bowl, beat eggs with milk. Stir in flour. Set aside. </li>
+            <li>3.  Divide butter evenly into the twelve cups of a muffin tin, about 1/2 teaspoon per cup. Place tin in oven to melt butter, 2 to 5 minutes. Remove tin from oven, and distribute batter evenly among buttery cups. </li>
+            <li>4.  Bake in preheated oven 5 minutes. Reduce heat to 350 degrees F (175 degrees C), and bake 25 minutes more or until puffed and golden.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Mashed Sweet Potatoes</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>6 sweet potatoes</li>
+              <li>½ cup butter</li>
+              <li>2 cloves garlic, minced</li>
+              <li>1 teaspoon dried basil</li>
+              <li>½ teaspoon dried thyme</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 573</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 20 mins</li>
+              <li>ready time: 30 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 20 minutes; drain. </li>
+            <li>2.  Transfer potatoes to a large bowl; mash butter, garlic, basil, and thyme into the potatoes with a potato masher until smooth.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Chicken Spaghetti</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 (12 ounce) package angel hair pasta</li>
+              <li>1 (10 ounce) can diced tomatoes with green chile peppers</li>
+              <li>1 (10.75 ounce) can condensed cream of chicken soup</li>
+              <li>¾ (8 ounce) package processed cheese, cubed</li>
+              <li>2 cups chopped cooked chicken breast</li>
+              <li>½ (4 ounce) jar sliced mushrooms, drained, salt and pepper to taste</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 376</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: 15 mins</li>
+              <li>ready time: 25 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain and return to pot. </li>
+            <li>2.  To the pasta add the diced tomatoes with green chile peppers, cream of chicken soup, processed cheese, chopped chicken, mushrooms, salt and pepper. Cook and stir over low heat until cheese is melted and mixture is heated through.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Quick and Easy Taco Dip</h2>
+      </div>
+      <div class="content">
+        <div class="recipe-info">
+          <div class="ingredients">
+            <ul>
+              <li>1 (8 ounce) package cream cheese, softened</li>
+              <li>¾ teaspoon taco seasoning mix</li>
+              <li>⅓ cup salsa</li>
+              <li>1 (8 ounce) package shredded Cheddar cheese</li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>calories: 86</li>
+              <li>prep time: 10 mins</li>
+              <li>cook time: </li>
+              <li>ready time: 1 hr 10 mins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="directions">
+          <ul>
+            <li>1.  In a medium bowl, mix the cream cheese, taco seasoning mix and salsa. Spread the mixture into a shallow serving dish or an 8 inch baking pan. Top with Cheddar cheese. Chill in the refrigerator approximately 1 hour before serving.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
